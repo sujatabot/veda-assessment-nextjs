@@ -25,7 +25,7 @@ const Donate: React.FC = () => {
         <div className="md:w-1/2 relative">
           <img src={donationDetails.image} alt="Dog" className="w-full h-full object-cover" />
           <div className="absolute top-0 left-0 m-4">
-            <span className="bg-black text-white text-sm font-bold p-2 rounded">Pawprints</span>
+          
           </div>
         </div>
         <div className="md:w-1/2 p-10 flex flex-col justify-center">

@@ -3,7 +3,7 @@ import React from 'react';
 
 const Pawprints = () => {
   return (
-    <div className="bg-green-300 h-screen w-full grid grid-cols-2">
+    <div className="bg-[#8AC4A2] h-screen w-full grid grid-cols-2">
       <div className="pl-10 grid content-center">
         <div className="space-y-4">
           <h1 className="text-sm text-red-700">SAVING LIVES EVERY DAY</h1>

@@ -17,15 +17,15 @@ const Contacts: React.FC = () => {
       setError('Email address is not valid');
     } else {
       setError('');
-      // handle the form submission
+  
       console.log('Form submitted:', email);
     }
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-[#1c1c1c]">
+    <div className="flex flex-col items-center justify-center min-h-screen ">
       <div className="w-full max-w-4xl space-y-6">
-        {/* First Newsletter Form */}
+      
         <div className="bg-[#8AC4A2] p-6 rounded-md shadow-md flex items-center justify-between">
           <div>
             <h2 className="text-lg font-bold">Join our newsletter</h2>
@@ -48,10 +48,10 @@ const Contacts: React.FC = () => {
           </form>
         </div>
         {error && (
-          <div className="text-red-600 text-center mt-2">{error}</div>
+          <div className="mt-2 text-center text-red-600">{error}</div>
         )}
         
-        {/* Second Newsletter Form */}
+      
         <div className="bg-[#8AC4A2] p-6 rounded-md shadow-md flex items-center justify-between">
           <div>
             <h2 className="text-lg font-bold">Join our newsletter</h2>
@@ -74,7 +74,7 @@ const Contacts: React.FC = () => {
           </form>
         </div>
         {error && (
-          <div className="text-red-600 text-center mt-2">{error}</div>
+          <div className="mt-2 text-center text-red-600">{error}</div>
         )}
       </div>
     </div>
